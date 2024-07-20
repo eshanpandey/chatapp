@@ -1,5 +1,5 @@
 from django.urls import path, include
-from ChitChat import views as chat_views
+from .import views as chat_views
 from django.contrib.auth.views import LoginView, LogoutView
 
 urlpatterns = [
